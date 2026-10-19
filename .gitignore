@@ -1,0 +1,9 @@
+# Vendored upstream clone, not part of this repository
+llama.cpp/
+
+# Python
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store

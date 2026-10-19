@@ -1,0 +1,8 @@
+FROM ./tiny-count.gguf
+
+TEMPLATE """{{ .Prompt }}
+"""
+
+PARAMETER temperature 0
+PARAMETER top_k 1
+PARAMETER num_predict 16
