@@ -1,0 +1,4 @@
+# llama.cpp provides the pinned conversion dependencies. They also cover the
+# training script (torch, transformers, sentencepiece, numpy, safetensors).
+# Run ./build.sh setup first so that ./llama.cpp exists.
+-r llama.cpp/requirements/requirements-convert_hf_to_gguf.txt

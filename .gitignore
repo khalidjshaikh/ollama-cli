@@ -4,6 +4,7 @@ llama.cpp/
 # Python
 __pycache__/
 *.pyc
+.venv/
 
 # macOS
 .DS_Store
